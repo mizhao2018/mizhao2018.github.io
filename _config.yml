@@ -2,9 +2,9 @@
 permalink:           pretty
 
 # Setup
-title:               Z.W. Miller
-tagline:             A Moderately Okay Data Science Blog
-url:                 http://zwmiller.com
+title:               敏在悉尼等你
+tagline:             Initial Commit
+url:                 http://mizhao2018.github.io
 paginate:            2
 baseurl:             ""
 
@@ -17,14 +17,14 @@ sass:
 
 # About/contact
 author:
-  name:              Zach Miller
-  url:               https://twitter.com/zaglamir
-  email:             zach@thisismetis.com
+  name:              Miranda Zhao
+  url:               https://www.linkedin.com/in/miranda-runmin-zhao-98225027/
+  email:             mirandazhao2014@gmail.com
 
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/zwmiller
+  repo:              https://github.com/mizhao2018
 
 # Gems
 gems:
