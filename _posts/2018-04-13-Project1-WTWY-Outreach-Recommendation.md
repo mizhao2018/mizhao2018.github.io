@@ -19,3 +19,5 @@ One of the most important aspect of a data scientist (from my few weeks of exper
 
 Note*: We did not compute the daily_exits data because exits at some stations are not tracked, so the data presented in the dataset is not consistent. 
 
+## Which data is interesting?
+As this is our first project, we decided to tackle one question at a time, starting from the most basic question - what are the busiest stations by entrance count? 
