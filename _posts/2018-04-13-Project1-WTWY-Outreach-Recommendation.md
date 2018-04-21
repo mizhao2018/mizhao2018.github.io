@@ -43,6 +43,7 @@ Together with income data, tech funding, and Starbucks, we ranked the stations f
 
 ![alt_text] (https://github.com/mizhao2018/mizhao2018.github.io/blob/master/_posts/Ranking%20Data.png)
 
-
+## So What's Next? 
+Data, when used apporpriately, can give great insights to promote business growth / help with marketing efforts. However, I would not rely on the data completely as to give the data scientists opportunities for improvement. As such, I also recommend that the marketing team start with a "trial" run with suggestions above, and with the results, we will be able to analyze it better and adjust our strategies accordingly. 
 
 
