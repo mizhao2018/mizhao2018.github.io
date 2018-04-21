@@ -24,3 +24,25 @@ As this is our first project, we decided to tackle one question at a time, start
 After we found the stations, we pinpointed the stations on a map to visualize better. Not surprisingly, most of the stations are centered in lower Manhattan and Wall Street. 
 
 ![alt_text](https://github.com/mizhao2018/mizhao2018.github.io/blob/master/_posts/Top%2010%20Stations.png)
+
+What day or days shall the street teams go visit the stations? We summed the top 10 stations traffic by day, then took the average to visualize the best days in the month of May to get signatures. Wednesdays and Thursdays tend to be busier than other days, and a lot more than weekends as commuters would work on weekdays. 
+
+![alt_text] (https://github.com/mizhao2018/mizhao2018.github.io/blob/master/_posts/Busiest%20Days.png)
+
+What about hours? What are some of the best times to send our street teams? We binned the time to 4-hour blocks to see if we can find a pattern. Additionally, we've added weekday to the date, as "0" represents Monday, "1" for Tuesday, and so on. The morning and afternoon rush seem to be good times in terms of foot traffic. 
+
+![alt_text] (https://github.com/mizhao2018/mizhao2018.github.io/blob/master/_posts/Busy%20Times.png)
+
+
+## Is foot traffic all we care about? 
+Foot traffic cannot be everything that one looks at. After all, us as data scientists should look beyond the obvious data and discover insights! How can we make this project easier for the street teams? In addition to the crowd at Penn Station, what if people are too busy to stop to hear about the organization? 
+
+In lieu of this, we thought about coffee shops. People who get their morning cups of coffee will be more at ease to listening to a marketing pitch. In addition, Starbucks as a brand is more prestigious so their customers are more likely to be more well-off (compare to people who frequent other coffee shops -- note, this is an assumption). Therefore, we found the number of Starbucks within 0.3 miles of the station, and ranked the existing 10 stations based on the number of Starbucks. 
+
+Together with income data, tech funding, and Starbucks, we ranked the stations from 1-10, with "1" being the best station to visit. 
+
+![alt_text] (https://github.com/mizhao2018/mizhao2018.github.io/blob/master/_posts/Ranking%20Data.png)
+
+
+
+
