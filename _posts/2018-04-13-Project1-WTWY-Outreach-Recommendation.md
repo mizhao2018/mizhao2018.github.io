@@ -23,4 +23,4 @@ Note*: We did not compute the daily_exits data because exits at some stations ar
 As this is our first project, we decided to tackle one question at a time, starting from the most basic question - what are the busiest stations by entrance count? 
 After we found the stations, we pinpointed the stations on a map to visualize better. Not surprisingly, most of the stations are centered in lower Manhattan and Wall Street. 
 
-(https://github.com/mizhao2018/mizhao2018.github.io/blob/master/_posts/Top%2010%20Stations.png)
+![alt_text](https://github.com/mizhao2018/mizhao2018.github.io/blob/master/_posts/Top%2010%20Stations.png)
