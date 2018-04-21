@@ -23,7 +23,7 @@ Note*: We did not compute the daily_exits data because exits at some stations ar
 As this is our first project, we decided to tackle one question at a time, starting from the most basic question - what are the busiest stations by entrance count? 
 After we found the stations, we pinpointed the stations on a map to visualize better. Not surprisingly, most of the stations are centered in lower Manhattan and Wall Street. 
 
-![alt_text](https://github.com/mizhao2018/mizhao2018.github.io/blob/master/_posts/Top%2010%20Stations.png)
+![alt text](https://github.com/mizhao2018/mizhao2018.github.io/blob/master/_posts/Top%2010%20Stations.png)
 
 What day or days shall the street teams go visit the stations? We summed the top 10 stations traffic by day, then took the average to visualize the best days in the month of May to get signatures. Wednesdays and Thursdays tend to be busier than other days, and a lot more than weekends as commuters would work on weekdays. 
 
