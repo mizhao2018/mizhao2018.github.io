@@ -12,7 +12,7 @@ MTA turnstile data is organized by week, so initially we downloaded one week's d
 
 ## Data Cleansing
 One of the most important aspect of a data scientist (from my few weeks of experience as a Data Analyst at the CME Group) is to conduct analysis with a clean set of data. At the same time, depending on the data presented, this is also one of the most challenging steps for any beginner with a new programming language. Without going into the details, here are some of the key steps we took with the MTA data. 
-* Grouped "A/C," "UNIT," "SCP," and "STATION" as one unique entity so we can look at the data collectively;
+* Grouped some attributes as unique entity so we can look at the data collectively;
 * Created "hourly_entries" from cumulative ENTRY data;
 * Deleted "hourly_entries > 5000" since the difference beyond 5000 comes from differences from different entities, and not within one entity.
 * Deleted "hourly_entries < 0" for similar reason as above. 
@@ -23,15 +23,15 @@ Note*: We did not compute the daily_exits data because exits at some stations ar
 As this is our first project, we decided to tackle one question at a time, starting from the most basic question - what are the busiest stations by entrance count? 
 After we found the stations, we pinpointed the stations on a map to visualize better. Not surprisingly, most of the stations are centered in lower Manhattan and Wall Street. 
 
-![alt text](https://github.com/mizhao2018/mizhao2018.github.io/blob/master/_posts/Top%2010%20Stations.png)
+![alt text](https://raw.githubusercontent.com/mizhao2018/mizhao2018.github.io/blob/master/_posts/Top%2010%20Stations.png)
 
 What day or days shall the street teams go visit the stations? We summed the top 10 stations traffic by day, then took the average to visualize the best days in the month of May to get signatures. Wednesdays and Thursdays tend to be busier than other days, and a lot more than weekends as commuters would work on weekdays. 
 
-![alt_text] (./_posts/Busiest%20Days.png)
+![alt_text] (https://raw.githubusercontent.com/mizhao2018/mizhao2018.github.io/blob/master/_posts/Busiest%20Days.png)
 
 What about hours? What are some of the best times to send our street teams? We binned the time to 4-hour blocks to see if we can find a pattern. Additionally, we've added weekday to the date, as "0" represents Monday, "1" for Tuesday, and so on. The morning and afternoon rush seem to be good times in terms of foot traffic. 
 
-![alt_text] (./_posts/Busy%20Times.png)
+![alt_text] (https://raw.githubusercontent.com/mizhao2018/mizhao2018.github.io/blob/master/_posts/Busy%20Times.png)
 
 
 ## Is foot traffic all we care about? 
@@ -41,7 +41,7 @@ In lieu of this, we thought about coffee shops. People who get their morning cup
 
 Together with income data, tech funding, and Starbucks, we ranked the stations from 1-10, with "1" being the best station to visit. 
 
-![alt_text] (./_posts/Ranking%20Data.png)
+![alt_text] (https://raw.githubusercontent.com/mizhao2018/mizhao2018.github.io/blob/master/_posts/Ranking%20Data.png)
 
 ## So What's Next? 
 Data, when used apporpriately, can give great insights to promote business growth / help with marketing efforts. However, I would not rely on the data completely as to give the data scientists opportunities for improvement. As such, I also recommend that the marketing team start with a "trial" run with suggestions above, and with the results, we will be able to analyze it better and adjust our strategies accordingly. 
