@@ -1,30 +1,18 @@
 ---
 layout: page
-title: About
+title: This is Miranda
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  Hi! This is my blog to discuss my quest for Data Science, a field that I have been interested in for a while. 
 </p>
 
-In the novel, *The Strange Case of Dr. Jekyll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+My first interaction with Data Science started in a Marketing class. As part of the Kellogg Certificate for Undergraudate Students program at Northwestern University where I attended college, I was very lucky to have taken **Empirical Evidence for Consumer Analytics** class with Professor Yao. It was my first time using Stata to see patterns of consumer behavior, and how marketers should strategize their campaign to best achieve their goals. From there, I interned at the CME Groups' Marketing Department in the summer of my senior year. With a team of 4 other data scientists, we found the best time for marketers to send emails, segmented by regions. 
 
-There are currently two themes built on Poole:
+Upon graduation, I worked as a Technology Consultant at Deloitte Consulting to help organizations and government agencies on their technology integrations and strategies. It was there that I realized a strong foundation and understanding in technology is essential in becoming a true technologist. 
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+In the fall of 2018, I will be pursuing a joint degree in MBA and MS in Computer Science at the University of Chicago Booth School of Business to hone my business and technical skills in the hope of becoming a successful Product Manager at a technology firm, producing innovating products for companies / consumers. 
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+At the moment, I am taking some much-needed training on Data Science through Metis. This blog will contain projects done at the program, and hopefully, my thoughts on data science as I am diving deeper into the subject. 
 
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+Please visit my profile on [LinkedIn](https://www.linkedin.com/in/miranda-runmin-zhao-98225027/) for more information.
