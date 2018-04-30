@@ -28,10 +28,17 @@ The final list of input variables listed below:
 Note - I also only included completed matches, so a total of 253 matches over the course of 14 days became my dataset! 
 
 ## Modeling
-Part of the fun as a Data Scientist is to derive a model that can best answer the question. Without getting too deep into weeds, I divided my data into 80% train and 20% test. I started with a simple Linear Regression with SK Learn, but reazlied that I can try polynomial as to allow some features to interact, for example, how does temperature affect men vs. women matches? That resulted in overfitting, and I have more than 100 variables! From there, I went ahead with Regularization (tried Lasso and Ridge), a technique to prevent overfitting by augmenting the cost function. With four models in hand, I compared the Mean Absolute Error (a way to measure model effectiveness) on the validation set of my training data and decided that the model with Lasso regularization works best. A lot of jargon... 
+Part of the fun as a Data Scientist is to derive a model that can best answer the question. Without getting too deep into weeds, I divided my data into 80% train and 20% test. I started with a simple Linear Regression with SK Learn, but reazlied that I can try polynomial as to allow some features to interact, for example, how does temperature affect men vs. women matches? 
+![alt text](https://github.com/mizhao2018/mizhao2018.github.io/blob/master/images/004.png?raw=true)
+That resulted in overfitting, and I have more than 100 variables! 
+From there, I went ahead with Regularization (tried Lasso and Ridge), a technique to prevent overfitting by augmenting the cost function. With four models in hand, I compared the Mean Absolute Error (a way to measure model effectiveness) on the validation set of my training data and decided that the model with Lasso regularization works best. A lot of jargon... 
+![alt text](https://github.com/mizhao2018/mizhao2018.github.io/blob/master/images/006.png?raw=true)
 
 ## Ok, technicals aside, how good is my model? 
 My model can predict a match time with +/- 30 minutes. It is not the best model, but a good start. For example, the match between Rafael Nadal and Leonardo Mayer during the 2nd Round lasted 2 hours and 38 minutes, while my model predicted it to complete in 2 hours 23 minutes.
+![alt text](https://github.com/mizhao2018/mizhao2018.github.io/blob/master/images/007.png?raw=true)
+Technically, there is no clear sign of heteroscedasticity based on the residual graph below.
+![alt text](https://github.com/mizhao2018/mizhao2018.github.io/blob/master/images/008.png?raw=true
 
 ## What can I use the model for? 
 To an amateur data scientist like myself, a model is never practical unless it gives me some applications. Luckily, this model can be used for stadium planning. Match coordinators can adjust the sequence of matches and their courts so that matches can finish before sunset, especially in earlier rounds. Additionally, for fans in the Americas, this model can be used to tune their sleep schedule if they want to watch a specific match. 
