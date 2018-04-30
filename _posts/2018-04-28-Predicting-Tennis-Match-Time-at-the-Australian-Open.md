@@ -38,7 +38,7 @@ From there, I went ahead with Regularization (tried Lasso and Ridge), a techniqu
 My model can predict a match time with +/- 30 minutes. It is not the best model, but a good start. For example, the match between Rafael Nadal and Leonardo Mayer during the 2nd Round lasted 2 hours and 38 minutes, while my model predicted it to complete in 2 hours 23 minutes.
 ![alt text](https://github.com/mizhao2018/mizhao2018.github.io/blob/master/images/007.png?raw=true)
 Technically, there is no clear sign of heteroscedasticity based on the residual graph below.
-![alt text](https://github.com/mizhao2018/mizhao2018.github.io/blob/master/images/008.png?raw=true
+![alt text](https://github.com/mizhao2018/mizhao2018.github.io/blob/master/images/008.png?raw=true)
 
 ## What can I use the model for? 
 To an amateur data scientist like myself, a model is never practical unless it gives me some applications. Luckily, this model can be used for stadium planning. Match coordinators can adjust the sequence of matches and their courts so that matches can finish before sunset, especially in earlier rounds. Additionally, for fans in the Americas, this model can be used to tune their sleep schedule if they want to watch a specific match. 
