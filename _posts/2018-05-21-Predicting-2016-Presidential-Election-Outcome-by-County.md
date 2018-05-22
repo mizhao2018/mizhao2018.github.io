@@ -22,7 +22,7 @@ Using the Kernel RBF model, I predicted the outcome for ALL of my dataset - 3111
 
 To be a little more nerdy, I wanted to see how many counties did we predict wrong, both on the Republican and the Democrat sides. This histogram represents the number of counties voted for each party, with the x-axis showing the predicted likelihood of voting for Democrat (again, 1 = Democrat, and 0 means very Republican), and y-axis (bar height) representing the number of counties that **actually** voted for each party. Why is this important? To zoom in on the section in which probability of voting for Democrat is greater of equal to 0.5, we see some red bars underneath, and these are the counties that analysts predicted to vote for Clinton but won by Trump. *These* are the false positives, and the ones that perhaps, people wrongfully hoped for. 
 
-<iframe src="https://plot.ly/~mizhao2018/10/?share_key=SAuBNVpDX16ZImXw6jWJu4" width="850" ></iframe>
+<iframe src="https://plot.ly/~mizhao2018/10/?share_key=SAuBNVpDX16ZImXw6jWJu4" width="850" height="450" ></iframe>
 
 To be more precise, the confusion matrix demonstrates the split bewteen true positive, false positive, true negative, and false negative. What I am interested in are the 12 and 37 - which are the false positive, and false negative, respectively, on the test set. To tie it together, these are the numbers that we strive to minimize. 
 
@@ -35,7 +35,7 @@ I went ahead with generating a dataset with 1000 sets of values using the Monte 
 
 You can see my Monte Carlo Simulation here. Note, you can also hover over each county to see the likelihood.
 
-<iframe src="https://plot.ly/~mizhao2018/14/?share_key=gR4GjjS0q1D9boMRXcmxpE" width="850" height="850" ></iframe>
+<iframe src="https://plot.ly/~mizhao2018/14/?share_key=gR4GjjS0q1D9boMRXcmxpE" width="850" height="450" ></iframe>
 
 ## So what's next? 
 Post eletion, there were many analysis done on the correlation of certain attributes to people's voting behavior. There are two things that I am particularly interested in: [Cracker Barrel and Whole Foods](https://twitter.com/Redistrict/status/796425128359972864), and [health data](https://www.economist.com/news/united-states/21710265-local-health-outcomes-predict-trumpward-swings-illness-indicator) in relation to election outcome. I'm hoping to look into the analysis in these claims and prove their truthfulness (if true). 
