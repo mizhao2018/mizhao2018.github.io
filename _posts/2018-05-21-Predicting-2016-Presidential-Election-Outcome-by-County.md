@@ -29,7 +29,7 @@ I went ahead with generating a dataset with 1000 sets of values using the Monte 
 
 You can see my Monte Carlo Simulation here. Note, you can also hover over each county to see the likelihood. 
 
-{% include MonteCarlo.html %}
+(<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~mizhao2018/14.embed"></iframe>)
 
 ## So what's next? 
 Post eletion, there were many analysis done on the correlation of certain attributes to people's voting behavior. There are two things that I am particularly interested in: # Cracker Barrel and # Whole Foods, and health data in relation to election outcome. I'm hoping to look into the analysis in these claims and prove their truthfulness (if true). 
