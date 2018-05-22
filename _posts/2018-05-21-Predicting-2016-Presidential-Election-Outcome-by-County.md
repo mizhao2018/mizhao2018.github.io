@@ -27,6 +27,10 @@ Having all of the models and some generalization, I wanted to see if these facto
 
 I went ahead with generating a dataset with 1000 sets of values using the Monte Carlo method. Taking the mean of the each feature, I added a noise with a normal distribution of standard deviation of the feature. For example, if the mean of median income across all 3111 counties were $50,000 and standard deviation of $3500, then the new 1000 sets of data on income = $50,000 + noise, where noise follows a normal distribution of (50000, 3500). Running 1000 values through the Kernel RBF model, I calculated the probability that each county will vote for Democrat, and visualized it on the county map. Where you see darker red means the counties are very pro-Republican, and that some variation in socio-economic information will **not** likely to impact on their voting outcome (same as dark blue for Democrats). The interesting counties are the ones that have the lighter shades, as shown here to be some of the Midwest, and West Mountain regions. These are the areas in which with some change in features, the outcome might shift. Even though this was a priliminary analysis, focused ONLY on the county's information and not taking in polls, we can already see some possibility for campaigns or social changes to impact election outcome. 
 
+You can see my Monte Carlo Simulation here. Note, you can also hover over each county to see the likelihood. 
+
+{% include MonteCarlo.html %}
+
 ## So what's next? 
 Post eletion, there were many analysis done on the correlation of certain attributes to people's voting behavior. There are two things that I am particularly interested in: # Cracker Barrel and # Whole Foods, and health data in relation to election outcome. I'm hoping to look into the analysis in these claims and prove their truthfulness (if true). 
 
