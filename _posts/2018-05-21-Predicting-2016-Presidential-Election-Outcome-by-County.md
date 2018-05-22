@@ -32,7 +32,7 @@ You can see my Monte Carlo Simulation here. Note, you can also hover over each c
 (<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~mizhao2018/14.embed"></iframe>)
 
 ## So what's next? 
-Post eletion, there were many analysis done on the correlation of certain attributes to people's voting behavior. There are two things that I am particularly interested in: # Cracker Barrel and # Whole Foods, and health data in relation to election outcome. I'm hoping to look into the analysis in these claims and prove their truthfulness (if true). 
+Post eletion, there were many analysis done on the correlation of certain attributes to people's voting behavior. There are two things that I am particularly interested in: [Cracker Barrel and Whole Foods](https://twitter.com/Redistrict/status/796425128359972864), and [health data](https://www.economist.com/news/united-states/21710265-local-health-outcomes-predict-trumpward-swings-illness-indicator) in relation to election outcome. I'm hoping to look into the analysis in these claims and prove their truthfulness (if true). 
 
 ## My final thoughts
 When I first started this analysis, my only motivation was to see if I can observe a pattern in county's voting behavior. As I became more involved in data collection and modeling, I realized that there's a moral to every data analysis, and that is: 
