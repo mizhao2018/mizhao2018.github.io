@@ -7,9 +7,9 @@ title: This is Miranda
   Hi! This is my blog to discuss my quest for Data Science, a field that I have been interested in for a while. 
 </p>
 
-<div style="text-align:center">
+<p align="center">
   <img src="https://github.com/mizhao2018/mizhao2018.github.io/blob/master/images/Screen%20Shot%202018-05-21%20at%2010.21.00%20PM.png?raw=true" alt="My professional portrait in poster style ^_^" width="200" />
-<div>
+</p>
 
 
 My first interaction with Data Science started in a Marketing class. As part of the Kellogg Certificate for Undergraudate Students program at Northwestern University where I attended college, I was very lucky to have taken **Empirical Evidence for Consumer Analytics** class with Professor Yao. It was my first time using Stata to see patterns of consumer behavior, and how marketers should strategize their campaign to best achieve their goals. From there, I interned at the CME Groups' Marketing Department in the summer of my senior year. With a team of 4 other data scientists, we found the best time for marketers to send emails, segmented by regions. 
