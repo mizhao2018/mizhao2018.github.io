@@ -35,7 +35,7 @@ I went ahead with generating a dataset with 1000 sets of values using the Monte 
 
 You can see my Monte Carlo Simulation here. Note, you can also hover over each county to see the likelihood.
 
-<iframe src="https://plot.ly/~mizhao2018/14/?share_key=gR4GjjS0q1D9boMRXcmxpE" width="850" ></iframe>
+<iframe src="https://plot.ly/~mizhao2018/14/?share_key=gR4GjjS0q1D9boMRXcmxpE" width="850" height="850" ></iframe>
 
 ## So what's next? 
 Post eletion, there were many analysis done on the correlation of certain attributes to people's voting behavior. There are two things that I am particularly interested in: [Cracker Barrel and Whole Foods](https://twitter.com/Redistrict/status/796425128359972864), and [health data](https://www.economist.com/news/united-states/21710265-local-health-outcomes-predict-trumpward-swings-illness-indicator) in relation to election outcome. I'm hoping to look into the analysis in these claims and prove their truthfulness (if true). 
