@@ -7,7 +7,7 @@ title: This is Miranda
   Hi! This is my blog to discuss my quest for Data Science, a field that I have been interested in for a while. 
 </p>
 
-<div style="margin: 0 auto;">
+<div style="text-align:center">
   <img src="https://github.com/mizhao2018/mizhao2018.github.io/blob/master/images/Screen%20Shot%202018-05-21%20at%2010.21.00%20PM.png?raw=true" alt="My professional portrait in poster style ^_^" width="200" />
 <div>
 
