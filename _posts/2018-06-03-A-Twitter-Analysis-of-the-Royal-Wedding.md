@@ -46,4 +46,4 @@ Throughout my anslysis, I saw many external links in the body of the text. These
 
 ## What's next? 
 As cheesy as it sounds, I am hoping to see the Duchess of Sussex one day when she returns to Northwestern. I promist I will do a curtsey. All the best, Meghan & Harry! 
-![] (https://static01.nyt.com/images/2018/05/20/world/20royalwedding-photos27/merlin_138381726_9146ba9a-cb25-4c29-8d05-0fc9f1033302-superJumbo.jpg)
+![](https://static01.nyt.com/images/2018/05/20/world/20royalwedding-photos27/merlin_138381726_9146ba9a-cb25-4c29-8d05-0fc9f1033302-superJumbo.jpg)
