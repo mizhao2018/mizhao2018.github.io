@@ -1,3 +1,6 @@
+# Google Analytics
+google_analytics: UA-120981410-1
+
 # Permalinks
 permalink:           pretty
 
@@ -37,5 +40,4 @@ pages_list:
   Archive: '/archive'
   Feed: '/index.html'
 
-# Google Analytics
-google_analytics: UA-120981410-1
+
