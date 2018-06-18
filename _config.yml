@@ -36,3 +36,6 @@ pages_list:
   About: '/about'
   Archive: '/archive'
   Feed: '/index.html'
+
+# Google Analytics
+google_analytics: UA-120981410-1
